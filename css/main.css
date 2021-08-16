@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap");
+/*Variables*/
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap");
+nav {
+  background-color: #e4eee3; }
+  nav .navContainer__logo img {
+    width: 90px; }
+  nav .navContainer__items .navbar-nav .nav-item .nav-link {
+    color: #0b0102;
+    padding: 10px;
+    margin: 20px;
+    border: solid 1px black;
+    border-radius: 8px 8px 8px 8px;
+    text-decoration: none;
+    /* background-repeat: no-repeat; */
+    transition: all 1s ease; }
+    nav .navContainer__items .navbar-nav .nav-item .nav-link:hover {
+      background-size: 100%;
+      color: #e4eee3;
+      background: linear-gradient(#006280, #c7ffc0); }
+    nav .navContainer__items .navbar-nav .nav-item .nav-link.active {
+      background-size: 100%;
+      background: linear-gradient(#006280, #c7ffc0);
+      color: #e4eee3; }
+
+* {
+  font-family: "Dosis";
+  padding: 0;
+  margin: 0; }
+
+.carouselWrapper {
+  background-color: #99c89a; }
+
+.newsWrapper {
+  background-color: #bad7c2; }
+
+.sectionWrapper {
+  background-color: #99c89a; }
+  .sectionWrapper .container .row .row__item .card .card-body a {
+    transition: all 1s ease; }
+    .sectionWrapper .container .row .row__item .card .card-body a:hover {
+      background-color: linear-gradient(#006280, #c7ffc0); }
+
+.formWrapper {
+  background-color: #99c89a; }
+  .formWrapper button {
+    transition: all 1s ease; }
+    .formWrapper button.btn:hover {
+      background: linear-gradient(#006280, #c7ffc0); }
+
+.frequentlyQuestions {
+  background-color: #99c89a; }
+  .frequentlyQuestions .accordion .accordion-item .accordion-header .accordion-button {
+    color: #e4eee3;
+    background-color: #068247; }
+
+.navbar {
+  padding: 0; }
+  .navbar .container-fluid.footerSection {
+    justify-content: center; }
+    .navbar .container-fluid.footerSection ul.navbar-nav li {
+      margin: 0 2rem; }
+      .navbar .container-fluid.footerSection ul.navbar-nav li a.icon {
+        color: white;
+        margin: 6px;
+        text-decoration: none;
+        transition: all .5s ease; }
+        .navbar .container-fluid.footerSection ul.navbar-nav li a.icon.icon-whatsapp:hover {
+          color: #1faf22; }
+        .navbar .container-fluid.footerSection ul.navbar-nav li a.icon.icon-facebook:hover {
+          color: #2E406E; }
+        .navbar .container-fluid.footerSection ul.navbar-nav li a.icon.icon-instagram:hover {
+          color: wheat; }
+        .navbar .container-fluid.footerSection ul.navbar-nav li a.icon.icon-twitter:hover {
+          color: #339DC5; }

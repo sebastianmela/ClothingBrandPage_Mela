@@ -1,0 +1,57 @@
+* {
+    font-family: "Dosis";
+    @include padding-margin(0,0);
+}
+
+.carouselWrapper {
+    background-color: $bg-primary;
+}
+
+.newsWrapper {
+    background-color: $bg-tertiary;
+}
+
+.sectionWrapper {
+    background-color: $bg-primary;
+    .container {
+        .row {
+            .row__item {
+                .card {
+                    .card-body {
+                        a {
+                            transition: all 1s ease;
+                            &:hover {
+                                background-color: linear-gradient(rgb(0, 98, 128), rgb(199, 255, 192));
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+.formWrapper {
+    background-color: $bg-primary;
+    button {
+        transition: all 1s ease;
+        &.btn:hover {
+            background: linear-gradient(rgb(0, 98, 128), rgb(199, 255, 192));
+        }
+    }
+}
+
+.frequentlyQuestions {
+    background-color: $bg-primary;
+    .accordion {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    color: $bg-quaternary;
+                    background-color: #068247;
+                }
+            }
+        }
+    }
+}

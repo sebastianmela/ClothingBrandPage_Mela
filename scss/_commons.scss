@@ -1,0 +1,26 @@
+/*Variables*/
+$bg-primary:#99c89a;
+$bg-secondary: #52703c;
+$bg-tertiary: #bad7c2;
+$bg-quaternary: #e4eee3;
+$bg-quinary: #0b0102;
+
+$socialMedia: (
+    whatsapp:#1faf22,
+    facebook:#2E406E,
+    instagram :wheat,
+    twitter:#339DC5
+);
+
+$w-25: 25%;
+$w-50: 50%;
+$w-75: 75%;
+$w-100: 100%;
+
+$d-flex: flex;
+
+@mixin padding-margin($p, $m) {
+    padding: $p;
+    margin: $m;
+}
+

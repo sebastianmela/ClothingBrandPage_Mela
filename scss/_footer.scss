@@ -1,0 +1,30 @@
+.navbar {
+    padding: 0;
+    .container-fluid {
+        &.footerSection {
+            justify-content: center;
+            ul {
+                &.navbar-nav {
+                    li {
+                        margin: 0 2rem;
+                        a {
+                            &.icon {
+                                color: white;
+                                margin: 6px;
+                                text-decoration: none;
+                                transition: all .5s ease;
+                            
+                                @each $social-name, $social-color in $socialMedia {
+                                    &.icon-#{$social-name}:hover {
+                                        color: #{$social-color};
+                                    } 
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
